@@ -23,11 +23,8 @@ Verificar que todos tengan instalado correctamente nodejs, npm y angular CLI
 
 
 ## Cliente de angular
-Para una mayor facilidad al momento de gestionar un proyecto, ahora utilizaremos la ayuda de [**@angular-cli**](https://cli.angular.io/), para instalarlo solo usaremos el siguiente comando:
+Para una mayor facilidad al momento de gestionar un proyecto, ahora utilizaremos la ayuda de [**@angular-cli**](https://cli.angular.io/), el cualya vimos como instalarlo:
 
-```
-npm install -g @angular/cli
-```
 
 ## Creación de un proyecto
 Ahora que tenemos instalado el cliente de angular, solo debemos usar el siguiente comando para poder crear un nuevo proyecto:

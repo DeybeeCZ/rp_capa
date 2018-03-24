@@ -1,6 +1,23 @@
 # Conceptos básicos
 
-![Arquitectura de Angular 4](https://gitlab.com/cursos-boticas-y-salud/angular/raw/master/assets/images/angular4-arch.jpg)
+## El Patron MVVM
+
+MVVM es un sucesor de otro patrón bien conocido y exitoso como es el Model View Controller (MVC). MVC nació (como tantos otros patrones bien conocidos y exitosos) en el mundo de Smalltalk hace más de treinta años. Al usar MVC la aplicación se compone de tres tipos de objetos, con responsabilidades bien claras y diferenciadas:
+
+### MVC
+* El **modelo**. Habitualmente hay un solo modelo por aplicación. El modelo es responsable de todos los datos de la aplicación y de la lógica de negocios relacionada.
+* La **vista** o vistas. Una o más representaciones para el usuario final del modelo de la aplicación. La vista es responsable de mostrar los datos al usuario y de permitir la manipulación de los datos de la aplicación.
+* El **controlador** o controladores. Habitualmente hay un controlador por vista, aunque no es raro ver un controlador por entidad de dominio controlando varias vistas. El controlador es responsable de transferir datos desde el modelo hacia la vista asociada y viceversa. También es responsable de implementar el comportamiento de la vista para responder a las acciones de los usuarios.
+![Patrón MVC](https://fernandomachadopiriz.files.wordpress.com/2010/06/image.png)
+
+### MVVM
+* El **modelo**. Lo mismo que en MVC.
+* La **vista** o vistas. Igual que en MVC.
+* El **modelo-vista**. Uno o más por vista. El modelo-vista es responsable de implementar el comportamiento de la vista para responder a las acciones del usuario y de exponer los datos del modelo de forma tal que sea fácil usar bindings en la vista.
+![Patrón MVVM](https://fernandomachadopiriz.files.wordpress.com/2010/06/image1.png)
+
+
+![Arquitectura de Angular 4](https://raw.githubusercontent.com/DeybeeCZ/rp_capa/master/Conceptos/img/angular4-arch.jpg)
 
 ### Componentes
 

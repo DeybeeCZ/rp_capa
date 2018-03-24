@@ -1,5 +1,5 @@
 # Ciclo de vida de un componente
-![Lifecycle](https://gitlab.com/cursos-boticas-y-salud/angular/raw/master/assets/images/lifecycle.png)
+![Lifecycle](https://raw.githubusercontent.com/DeybeeCZ/rp_capa/master/Conceptos/img/lifecycle.png)
 
 Las instancias de directivas y componentes tienen un ciclo de vida en el cual Angular los crea, actualiza y destruye.
 

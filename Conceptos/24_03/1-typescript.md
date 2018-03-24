@@ -34,8 +34,56 @@ trabajado en el desarrollo de TypeScript.
 TypeScript se puede utilizar para desarrollar aplicaciones JavaScript para la
 ejecución del lado del cliente o del servidor (Node.js).
 
+![imagen](https://raw.githubusercontent.com/DeybeeCZ/rp_capa/master/Conceptos/img/js_in_ts.png)
+![imagen](https://raw.githubusercontent.com/DeybeeCZ/rp_capa/master/Conceptos/img/super_conjunto.png)
 
 * TypeScript es un superconjunto estricto de ECMAScript 2015, que es un
 superconjunto de ECMAScript 5, comúnmente denominado JavaScript.
 * Así, un programa JavaScript es también un programa TypeScript válido, y un
 programa TypeScript puede consumir JavaScript sin problemas.
+
+![imagen](https://raw.githubusercontent.com/DeybeeCZ/rp_capa/master/Conceptos/img/versus.png)
+
+Veamos una comparación de código entre JavaScript Y TypeScript
+![imagen](https://raw.githubusercontent.com/DeybeeCZ/rp_capa/master/Conceptos/img/resumen_codigo.png)
+
+## Características:
+* 85% JavaScript
+* ES6
+* Tipado fuerte
+* Se transpila a JavaScript
+
+## Tipos de datos:
+* string
+* number
+* boolean
+* array
+* objeto
+
+## Ejemplo de código TypeScript:
+```javascript
+class Persona {
+  fullname: string;
+
+  constructor(fullname: string) {
+    this.fullname = fullname;
+  }
+
+  async saludar() {
+    console.log(`Hola ${this.fullname}`);
+  }
+}
+
+let persona = new Persona('Jorge');
+persona.saludar().then(() => console.log('Fin'));
+```
+
+Compilado resultaria en JavaScript?
+ayudate a descubrirlo con la ayuda del siguiente [lugar](http://www.typescriptlang.org/play/)
+> TypeScript viene con un linter que ayuda a producir código de mejor calidad y menos buggs
+
+Para ver las ventajas de usar TypeScript a mayor profundidad, lee [este post](https://vsavkin.com/writing-angular-2-in-typescript-1fa77c78d8e8).
+
+Desde otra perspectiva, Eric Elliot habla en [este artículo](https://medium.com/javascript-scene/you-might-not-need-typescript-or-static-types-aa7cb670a77b) de que tal vez no es necesario usar TypeScript.
+
+Algunos devs pueden pensar que al usar tipos de datos definidos se evitan muchos bugs, pero hay una gran cantidad de bugs que no se evitan por esto. Existen otras alternativas a evitar bugs como: TDD, Code Reviews, etc.

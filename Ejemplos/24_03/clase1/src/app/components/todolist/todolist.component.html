@@ -4,7 +4,7 @@
             <div class="input-group-prepend">
                 <span class="input-group-text" id="basic-addon3">Nueva Tarea</span>
             </div>
-            <input type="text" class="form-control" id="basic-url" [(ngModel)]="task" aria-describedby="basic-addon3">
+            <input type="text" class="form-control" id="basic-url" [(ngModel)]="task" aria-describedby="basic-addon3" (keypress)="write($event)">
             <button (click)="addTask()">Agregar</button>
         </div>
     </div>

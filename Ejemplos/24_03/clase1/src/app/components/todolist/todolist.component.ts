@@ -4,6 +4,7 @@ import { ListModel } from '../../models/listModel';
 // import { Observable } from 'rxjs/Observable';
 // import { TestService } from '../../services/test.service'
 
+
 @Component({
     selector: 'app-todolist',
     templateUrl: './todolist.component.html',
@@ -13,7 +14,7 @@ export class TodolistComponent implements OnInit {
 
     task:String
     lists:ListModel[]=[]
-    pending:ListModel
+    //pending:ListModel
 
     constructor(){
         // this.pending = new ListModel('Pendientes');
@@ -36,6 +37,12 @@ export class TodolistComponent implements OnInit {
         this.lists[0].items.push(newTask)
         this.task=''
         // this.serv.addItem(newTask)
+    }
+
+    write(e){
+        if(e.charCode==13){
+            this.addTask()
+        }
     }
 
 }

@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -12,6 +12,7 @@ import { FooterComponent } from './components/common/footer/footer.component';
 import { NavbarComponent } from './components/common/navbar/navbar.component';
 import { TodolistComponent } from './components/todolist/todolist.component';
 import { ListComponent } from './components/list/list.component';
+import { PostsComponent } from './components/posts/posts.component';
 
 
 @NgModule({
@@ -21,13 +22,15 @@ import { ListComponent } from './components/list/list.component';
     FooterComponent,
     NavbarComponent,
     TodolistComponent,
-    ListComponent
+    ListComponent,
+    PostsComponent
   ],
   imports: [
     NgbModule.forRoot(),
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]

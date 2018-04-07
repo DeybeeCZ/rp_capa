@@ -1,0 +1,11 @@
+<div class="card">
+    <div class="card-header">
+        {{list.name}}
+    </div>
+    <ul *ngIf="list.items" class="list-group list-group-flush">
+        <li  *ngFor="let item of list.items" class="list-group-item">{{item.desc}}</li>
+    </ul>
+    <ul *ngIf="list.items.length==0" class="list-group list-group-flush">
+        <li class="list-group-item">Esta lista aún esta vacia</li>
+    </ul>
+</div>

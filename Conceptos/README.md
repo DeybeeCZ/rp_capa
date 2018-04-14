@@ -19,3 +19,9 @@
 * [Objetos](/Conceptos/07_04/6-objetos.md)
 * [rutas](/Conceptos/07_04/7-rutas.md)
 * [Tour de Heroes](/Conceptos/07_04/8-tour.md)
+
+## Día 14 de Abril
+* [Ambientes diferentes](/Conceptos/14_04/1-conf-enviroment.md)
+* [Observables](/Conceptos/14_04/2-Observables.md)
+* [Router avanzado](/Conceptos/14_04/3-state-routing.md)
+* [Rest Service](/Conceptos/14_04/4-rest-services.md)

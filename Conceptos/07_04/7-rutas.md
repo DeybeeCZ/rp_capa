@@ -69,7 +69,6 @@ Permite agregar una clase css
 ## Ejercicio:
 Crea un menú de navegación con Angular con links Inicio, catálogo y contáctanos. Configura el routing para que cada link muestre un componente distinto.
 
-
 ## Parámetros por la url
 En la url que se agrega en la configuración del path, agregar un wildcare tipo “catalogo/:id”. El id es un comodín que aceptará cualqueir texto.
 

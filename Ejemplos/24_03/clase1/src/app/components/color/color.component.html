@@ -1,0 +1,10 @@
+<div>
+  <select name="" id="" (change)="changeColor($event.target.value)">
+    <option *ngFor="let color of colors">{{color}}</option>
+  </select>
+  <div [ngSwitch]="colorSelected" >
+    <span *ngSwitchCase="'red'" [ngStyle]="{color:colorSelected}">Es Rojo</span>
+    <span *ngSwitchCase="'green'" [ngStyle]="{color:getColor()}">Es Verde</span>
+    <span *ngSwitchCase="'blue'" [ngStyle]="{color:getColor()}">Es Azul</span>
+  </div>
+</div>

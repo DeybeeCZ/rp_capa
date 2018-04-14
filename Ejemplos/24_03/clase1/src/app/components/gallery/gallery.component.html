@@ -1,0 +1,6 @@
+esta es mi galeria
+<div class="row d-flex">
+  <div class="col-md-2" *ngFor="let photo of photos">
+    <img *ngIf="photo.id<50" src="{{photo.thumbnailUrl}}" style="width:100%"/>
+  </div>
+</div>

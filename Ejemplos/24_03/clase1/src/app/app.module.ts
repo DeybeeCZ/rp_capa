@@ -13,6 +13,9 @@ import { NavbarComponent } from './components/common/navbar/navbar.component';
 import { TodolistComponent } from './components/todolist/todolist.component';
 import { ListComponent } from './components/list/list.component';
 import { PostsComponent } from './components/posts/posts.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
+import { BotonComponent } from './components/boton/boton.component';
+import { ColorComponent } from './components/color/color.component';
 
 
 @NgModule({
@@ -23,7 +26,10 @@ import { PostsComponent } from './components/posts/posts.component';
     NavbarComponent,
     TodolistComponent,
     ListComponent,
-    PostsComponent
+    PostsComponent,
+    GalleryComponent,
+    BotonComponent,
+    ColorComponent
   ],
   imports: [
     NgbModule.forRoot(),

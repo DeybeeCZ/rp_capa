@@ -18,4 +18,16 @@ export class ListComponent implements OnInit {
   ngOnInit() {
   }
 
+  mydrop(event){
+      console.log('DROP',event)
+  }
+
+  mydrag(event){
+      console.log('my drag',event)
+  }
+
+  overdrag($event){
+      console.log('overdrag',$event)
+  }
+
 }

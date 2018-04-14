@@ -17,7 +17,7 @@ Los observables funcionan como un matriz, es por eso que es recomendado usar el 
 con el fin de procesar las respuestas
 
 Cuales con las diferencias entre un Observable y una Promesa
-![imagenvs](,,/img/observables.jpg)
+![imagenvs](../img/observables.jpg)
 
 ```
 import { Observable } from 'rxjs/Observable';

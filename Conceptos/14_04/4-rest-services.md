@@ -67,9 +67,9 @@ url?: string|null
 ### Ejercicio 1:
 Crea un aplicación que permita visualizar un listado de libros,usando http services y observables. La data la podemos obtener de [AQUI](https://raw.githubusercontent.com/DeybeeCZ/rp_capa/master/extras/books.json)
 
-[!imagen](https://raw.githubusercontent.com/DeybeeCZ/rp_capa/master/Conceptos/img/book_store_actual.png)
+![imagen](https://raw.githubusercontent.com/DeybeeCZ/rp_capa/master/Conceptos/img/book_store_actual.png)
 
 ### Ejercicio 2:
 Usar http services y observables para poder mostrar el detalle de cada uno de los libros listados en la demo anterior
 
-[!imagen](https://raw.githubusercontent.com/DeybeeCZ/rp_capa/master/Conceptos/img/detalle_book.png)
+![imagen](https://raw.githubusercontent.com/DeybeeCZ/rp_capa/master/Conceptos/img/detalle_book.png)

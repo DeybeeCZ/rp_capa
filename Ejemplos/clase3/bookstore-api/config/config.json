@@ -1,0 +1,48 @@
+{
+    "mongo": {
+        "krowdy-Auth":{
+            "driver": "mongodb",
+            "database": "krowdy-Auth",
+            "host": "127.0.0.1",
+            "port": 2000,
+            "user":"AdminKrowdyOauth",
+            "pwd":"krowdy,,oauth,,123"
+        }
+    },
+    "redis": {
+        "host":"127.0.0.1",
+        "port":6379,
+        "user":"",
+        "pwd":""
+    },
+    "postgres":{
+        "jobs": {
+            "driver": "pg",
+            "user": "kmaster",
+            "password": "oos2EiguSh2ahL",
+            "host": "krwd-psql01.c3wpbtbfotl9.us-west-2.rds.amazonaws.com",
+            "database": "job_boards_04",
+            "schema": "public",
+            "port":5439,
+            "max":60,
+            "idleTimeoutMillis": 35000
+        },
+        "linkedin": {
+            "driver": "pg",
+            "user": "kmaster",
+            "password": "oos2EiguSh2ahL",
+            "host": "krwd-psql01.c3wpbtbfotl9.us-west-2.rds.amazonaws.com",
+            "database": "linkedin_04",
+            "schema": "krowdy_DB",
+            "port":5439,
+            "max":60,
+            "idleTimeoutMillis": 35000
+        },
+    },
+    "apps":{
+        "auth":{
+            "host":"https://staging.krowdy.com.pe:6000",
+            "port":6000
+        }
+    }
+}

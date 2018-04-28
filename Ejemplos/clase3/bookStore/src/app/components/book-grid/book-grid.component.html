@@ -1,0 +1,12 @@
+<div class="row d-flex">
+  <div *ngFor="let book of books" class="col-md-4 mb-md-3">
+      <div class="card">
+          <div [ngStyle]="{ 'background-size': 'cover','background-image': 'url('+book.imageUrl+')','width' : '100%','height': '200px','justify-content': 'center','background-position': 'center'}"></div>
+          <div class="card-body">
+            <h5 class="card-title">{{book.name}}</h5>
+            <p class="card-text">{{book.description}}</p>
+            <a [routerLink]="['/books','detail',book.id]" class="btn btn-primary">ver detalle</a>
+          </div>
+        </div>
+  </div>
+</div>

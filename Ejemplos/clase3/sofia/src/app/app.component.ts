@@ -14,8 +14,8 @@ export class AppComponent implements OnInit {
   jul:Animal;
 
   constructor(){
-    this.sam = new Serpiente('Sammy');
-    this.jul = new Caballo('Julio');
+    this.sam = new Serpiente(1,'Sammy');
+    this.jul = new Caballo(2,'Julio');
   }
 
   ngOnInit(){

@@ -1,8 +1,8 @@
 import { Animal } from "./animal";
 
 export class Caballo extends Animal{
-    constructor(nombre){
-        super(nombre)
+    constructor(id,nombre){
+        super(id,nombre)
     }
 
     mover(distancia=45){

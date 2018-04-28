@@ -8,6 +8,10 @@ import { InicioComponent } from './componentes/inicio/inicio.component';
 import { CatalogoComponent } from './componentes/catalogo/catalogo.component';
 import { ContactanosComponent } from './componentes/contactanos/contactanos.component';
 import { AnimalComponent } from './componentes/animal/animal.component';
+import { AlimentacionComponent } from './componentes/animal/alimentacion/alimentacion.component';
+import { NacimientoComponent } from './componentes/animal/nacimiento/nacimiento.component';
+import { SexoComponent } from './componentes/animal/sexo/sexo.component';
+import { DetalleComponent } from './componentes/animal/detalle/detalle.component';
 
 
 @NgModule({
@@ -16,7 +20,11 @@ import { AnimalComponent } from './componentes/animal/animal.component';
     InicioComponent,
     CatalogoComponent,
     ContactanosComponent,
-    AnimalComponent
+    AnimalComponent,
+    AlimentacionComponent,
+    NacimientoComponent,
+    SexoComponent,
+    DetalleComponent
   ],
   imports: [
     BrowserModule,

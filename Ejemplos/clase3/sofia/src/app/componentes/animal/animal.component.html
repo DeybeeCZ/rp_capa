@@ -1,3 +1,5 @@
-<p>
-  animal works!
-</p>
+<div>
+  <ul>
+    <li  *ngFor="let animal of animales"><a [routerLink]="['/animales','detalle',animal.id]">{{animal.nombre}}</a></li>
+  </ul>
+</div>

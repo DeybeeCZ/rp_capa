@@ -23,6 +23,6 @@ export class CrearHeroeComponent implements OnInit {
 
   onSubmit() { this.submitted = true; }
 
-  get diagnostic() { return JSON.stringify(this.model); }
+  diagnostic() { return JSON.stringify(this.model); }
 
 }

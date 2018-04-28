@@ -16,6 +16,7 @@ import { NoFoundComponent } from './componentes/no-found/no-found.component';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService }  from './in-memory-data-service';
 import { HttpClientModule } from '@angular/common/http';
+import { CrearHeroeComponent } from './formularios/crear-heroe/crear-heroe.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { HttpClientModule } from '@angular/common/http';
     HeroeDetalleComponent,
     MensajesComponent,
     PanelComponent,
-    NoFoundComponent
+    NoFoundComponent,
+    CrearHeroeComponent
   ],
   imports: [
     BrowserModule,

@@ -26,6 +26,15 @@ export class HeroeDetalleComponent implements OnInit {
   this.hs.getHeroe(id)
     .subscribe(heroe => this.heroe = heroe);
   }
+
+  save(){
+    this.hs.updateHeroe(this.heroe)
+     .subscribe(() => this.goBack());
+  }
+
+  goBack(){
+    console.log('GO BACK');
+  }
   
 
 }
